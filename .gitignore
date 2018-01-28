@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 .idea
-script/OOXX/
+script/files/
 
 # Distribution / packaging
 .Python
