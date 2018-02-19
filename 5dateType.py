@@ -1,9 +1,11 @@
+#数据类型
 print (520 == '520')
 #1500 0000 0000
 print('e计法')
 print(1.5e11)
 print(15e10)
 
+print('True+True=',end='')
 print(True + True)
 a = '610'
 b = int(a)

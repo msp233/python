@@ -21,7 +21,9 @@ path = 'c:\\now'    #转义字符转义\
 print(path)
 path = r'c:\now\time'  #原始字符串
 print(path)
-path = r'c:\now\time''\\'  #原始字符串尾部是\
+path = r'c:\now\time'+'\\'  #原始字符串尾部是\
+print(path)
+path = 'c:\\now\\time\\'  #转义字符串尾部是\
 print(path)
 
 print('错误：str是内置函数，不能用作变量名')
