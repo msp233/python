@@ -2,7 +2,7 @@ member = ['0 first', 'msp', 'maoshiping', 'v_shipmao', 'abd', 'aaa', 'bbb']
 print(member)
 
 #remove 删除列表指定元素
-print('remove 删除列表指定元素')
+print('remove 删除列表指定元素 不需要知道元素位置，只需要知道名字')
 member.remove('maoshiping')
 print(member)
 
@@ -27,7 +27,15 @@ print(member[1:])
 print('member[:]')
 print(member[:])
 
-
+member = ['aaa','bbb','cccc','aaa']
+print(member)
+member.remove('aaa')
+print(member)
+member.remove('aaa')
+print(member)
+print('del 删除整个列表')
+del member
+#print(member)
 
 
 
