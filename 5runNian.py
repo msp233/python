@@ -16,13 +16,32 @@ while(True):
             if(num%100 == 0):
                 if(num%400 == 0):
                     print('是闰年')
-                    continue
-                print('是平年')
-                continue
+                else:
+                    print('是平年')
+            else:
+                print('是闰年')
+        else:
+            print('是平年')
+    else:
+        print('输入的类型不合法，请重新输入：',end='')
+print('结束进程\n')
+
+print('###########闰年计算器 取消多重if##############')
+while (True):
+    print('请输入一个年份:', end='')
+    temp = input('')
+    if (temp == ''):
+        break
+    if (temp.isdigit()):
+        num = int(temp)
+        if (num % 400 == 0):
             print('是闰年')
-            continue
-        print('是平年')
-        continue
-    print('输入的类型不合法，请重新输入：',end='')
+        else:
+            if(num % 4 == 0 and num % 100 != 0):
+                print('是闰年')
+            else:
+                print('是平年')
+    else:
+        print('输入的类型不合法，请重新输入：', end='')
 print('结束进程\n')
 
